@@ -1,0 +1,17 @@
+name: Container Build
+on:
+  - pull_request
+  - push
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Builds Docker Image
+        run: docker compose build notebook
+
+      - name: Stops Containers
+        run: docker compose down
