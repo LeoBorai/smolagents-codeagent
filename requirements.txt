@@ -7,10 +7,13 @@ markdownify == 0.14.1
 matplotlib == 3.10.3
 notebook == 7.4.2
 numpy == 2.2.5
+opentelemetry-sdk == 1.33.1
+opentelemetry-exporter-otlp == 1.33.1
+openinference-instrumentation-smolagents == 0.1.11
 pandas == 2.2.3
 pillow == 11.2.1
 python-dotenv == 1.0.1
 requests == 2.32.3
 scikit-learn == 1.6.1
-smolagents == 1.9.2
+smolagents == 1.16.1
 spacy == 3.8.5
