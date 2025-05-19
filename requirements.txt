@@ -3,7 +3,7 @@ gradio == 5.17.1
 h5py == 3.13.0
 jupyter == 1.1.1
 keras == 3.9.2
-markdownify == 0.14.1
+markdownify == 1.1.0
 matplotlib == 3.10.3
 notebook == 7.4.2
 numpy == 2.2.5
