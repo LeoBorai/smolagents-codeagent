@@ -12,7 +12,7 @@ opentelemetry-exporter-otlp == 1.33.1
 openinference-instrumentation-smolagents == 0.1.11
 pandas == 2.2.3
 pillow == 11.2.1
-python-dotenv == 1.0.1
+python-dotenv == 1.1.1
 requests == 2.32.3
 scikit-learn == 1.6.1
 smolagents == 1.16.1
